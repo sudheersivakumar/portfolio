@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P. Naga Sukeerthi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h1>Welcome to P. Naga Sukeerthi's Portfolio</h1>
+            <p>Data Analyst Intern with a passion for leveraging Machine Learning and Data Visualization.</p>
+            <a href="#projects" class="btn">Explore My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>I’m currently pursuing a Master’s in Data Science from VIT. Skilled in Python, Data Analytics, and Machine Learning techniques.</p>
+        <button class="btn" onclick="toggleMoreAbout()">More About Me</button>
+        <div id="more-about" class="hidden">
+            <p>Education details, certifications, and tools like MySQL, Tableau, and Python.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="skill-bar">
+            <p>Python</p>
+            <div class="bar"><span class="python"></span></div>
+        </div>
+        <div class="skill-bar">
+            <p>Data Analysis</p>
+            <div class="bar"><span class="data-analysis"></span></div>
+        </div>
+        <a href="#projects" class="btn">View Skills in Action</a>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Titanic Survival Prediction</h3>
+            <p>Machine Learning model to predict passenger survival using Python.</p>
+            <a href="https://github.com/your-repo" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Sales Prediction</h3>
+            <p>Forecasting sales using Linear Regression and Time Series Analysis in Python.</p>
+            <a href="https://github.com/your-repo" class="btn">View Project</a>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="experience-section">
+        <h2>Work Experience</h2>
+        <div class="carousel">
+            <div class="carousel-item">
+                <h3>Data Analyst Intern - CodSoft</h3>
+                <p>Developed machine learning models and used Seaborn for data visualization.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+        <h2>Certifications</h2>
+        <div class="certification-card">
+            <h3>Accenture Data Analytics</h3>
+            <a href="https://coursera.org/verify/cert-123" class="btn">View Certification</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form action="mailto:pnsukeerthi1603@gmail.com" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
